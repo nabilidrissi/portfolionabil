@@ -1,0 +1,65 @@
+.text-nabil{
+    color: #000 !important;
+    font-size: 70px;
+    line-height: 1.1;
+}
+.salam-emoji{
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+    animation-name: wave;
+    display: inline-block;
+    transform-origin: 70% 70%;
+}
+@keyframes wave {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(-10deg);
+    }
+    20% {
+      transform: rotate(12deg);
+    }
+    30% {
+      transform: rotate(-10deg);
+    }
+    40% {
+      transform: rotate(9deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  .main_container{
+    padding: 64px 26px;
+  }
+  .text-nabil-p{
+    font-size: 30px;
+    line-height: 40px;
+    color: #868e96 !important;
+  }
+  .social-media-div {
+    font-size: 2em;
+}
+.icon-button {
+    margin-bottom: 10px;
+}
+.imagesocial{
+    width: 70px;
+    height: 50px;
+    cursor: pointer;
+    transition: width 0.3s, height 0.3s; 
+}
+.imagesocial:hover{
+    width: 78px;
+    height: 70px;
+}
+.social-media-links{
+    display: flex;
+}
+.social-media-links div{
+    padding-left: 10px;
+}

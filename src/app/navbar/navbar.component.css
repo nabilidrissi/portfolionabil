@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    background-color: #fff;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 15px 20px;
+    justify-content: space-between;
+}
+header ul {
+    list-style: none;
+    margin: 0;
+}
+header li {
+    float: left;
+}
+header li a {
+    color: #000;
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    
+}
+.nameOfme{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.8em;
+}
+.gray-color{
+    color: #868e96;
+}
+.logoname{
+    display: block;
+    flex: none;
+    float: left;
+    font-size: 1.5em;
+    line-height: normal;
+    margin-top: 10px;
+    text-decoration: none;
+}
